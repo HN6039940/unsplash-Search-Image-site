@@ -9,7 +9,7 @@ const Gallery = () => {
     const result = await customAxios.get(
       `photos?client_id=${
         import.meta.env.VITE_API_KEY
-      }&page=1&query=${searchTerm}`
+      }&page=1&per_page=21&query=${searchTerm}`
     );
     return result.data;
   };

@@ -12,7 +12,7 @@ const SearchForm = () => {
 
   return (
     <section>
-      <h2>search form component</h2>
+      <h2 className="title">Unsplash Image Search</h2>
       <form action="" className="search-form" onSubmit={handleSubmit}>
         <input
           type="text"
